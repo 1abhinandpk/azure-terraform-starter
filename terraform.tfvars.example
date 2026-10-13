@@ -1,0 +1,9 @@
+# Copy this file to terraform.tfvars and fill in your values.
+# terraform.tfvars is git-ignored, so it won't be pushed.
+
+allowed_ssh_cidr = "203.0.113.10/32" # your public IP + /32
+
+# Optional overrides
+# prefix              = "azstarter"
+# location            = "australiaeast"
+# ssh_public_key_path = "~/.ssh/id_rsa.pub"

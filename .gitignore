@@ -1,0 +1,10 @@
+# Terraform working files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfplan
+
+# Real variable values (may contain your IP)
+terraform.tfvars
+*.auto.tfvars
